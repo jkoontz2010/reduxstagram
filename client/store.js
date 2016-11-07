@@ -6,7 +6,7 @@ import { browserHistory } from 'react-router';
 import rootReducer from './reducers/index';
 
 // fake data
-import comments from './data/commets';
+import comments from './data/comments';
 import posts from './data/posts';
 
 // create an object for the default data 
