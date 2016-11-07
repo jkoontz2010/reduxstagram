@@ -5,12 +5,7 @@ import Comments from './Comments';
 
 class Single extends React.Component {
 
-	renderComment(comment, i) {
-		console.log(comment);
-		return (
-			<div>{comment.text}</div>
-			);
-	}
+
 
 	render() {
 		const { postId } = this.props.params;
@@ -25,7 +20,8 @@ class Single extends React.Component {
 		return (
 			<div className="single-photo">
 				<Photo i={i} post={post} {...this.props} />
-				<Comments postComments={postComments} />
+				<Comments postComments={postComments} {...this.props} />
+
 			</div>
 		)
 	}
