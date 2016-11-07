@@ -6,7 +6,6 @@ import css from './styles/style.styl';
 
 // import components
 import App from './components/App';
-import Main from './components/Main';
 import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 
